@@ -1,9 +1,9 @@
-function outerOne() {
+function outerOne(a) {
 
-  function innerOne() {
-    console.log(this);
+  function innerOne(b) {
+    console.log(b);
   }
-  innerOne();
+  innerOne(a);
 };
 
-outerOne()
+console.log(outerOne("hello"))
