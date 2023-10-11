@@ -12,6 +12,6 @@ const outerTwo = function () {
 
 const outerThree = () => "wow";
 
-console.log(outer);
-console.log(outerTwo);
-console.log(outerThree);
+console.log(outer());
+console.log(outerTwo());
+console.log(outerThree());
