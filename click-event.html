@@ -11,11 +11,20 @@
   </div>
   <script>
     
-    const buttonClick = document.getElementById('button-click');
+    // const buttonClick = document.getElementById('button-click');
 
-    buttonClick.addEventListener('click', () => {
-      console.log('Click me');
+    // buttonClick.addEventListener('click', () => {
+    //   console.log('Click me');
+    // })
+
+    const buttonClick = document.getElementById('root');
+    root.style.width = "100vw";
+    root.style.height = "500vh";
+
+    root.addEventListener('wheel', (event) => {
+      console.log(event);
     })
+    
   </script>
 </body>
 </html>
