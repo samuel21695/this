@@ -12,6 +12,8 @@ const outerTwo = function () {
 
 const outerThree = () => "wow";
 
+const outerFour = a => a;
+
 console.log(outer());
 console.log(outerTwo());
 console.log(outerThree());
