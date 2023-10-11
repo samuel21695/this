@@ -1,6 +1,6 @@
 // 두 함수의 차이점은 무엇일까
 
-function outer() {
+function outerOne() {
   return "hello";
 };
 
@@ -12,8 +12,9 @@ const outerTwo = function () {
 
 const outerThree = () => "wow";
 
+// 매개변수가 하나일 경우
 const outerFour = a => a;
 
-console.log(outer());
+console.log(outerOne());
 console.log(outerTwo());
 console.log(outerThree());
