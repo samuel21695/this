@@ -15,3 +15,7 @@ function outerOne(a) {
 };
 
 console.log(outerOne("hello"))
+
+fs.readfile("./html", data, (error) => {
+
+});
